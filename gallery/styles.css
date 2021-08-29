@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: #24252a;
+}
+li, a, button{
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+}
+.nav-links {
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color:#21b91e;
+}
+button{
+    padding: 9px 25px;
+    background-color: #08D505;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #2a9c28;
+}
+h3, p{
+    color: #edf0f1;
+    text-align: center;
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+h3{
+    font-size: 18px;
+    margin: 1%;
+    padding: none;
+}
+p{
+    margin: 1% 26%;
+    padding: 0% 0%;
+    text-align:center
+}
+tbody{
+    padding: 10%;
+    margin: 10%;
+}
+.moon{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+}
+table{
+    width: 600px;
+    background-color: #24252a;
+}
+
+table, th, td{
+    border: 1px solid rgb(6, 71, 20);
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+  }
